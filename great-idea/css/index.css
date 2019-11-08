@@ -192,7 +192,14 @@ button:hover{
 }
 
 .link:hover{
-	color: red;
+	box-shadow: 0px 0px 0 rgb(28, 157, 208),
+	1px 1px 0 rgb(26, 82, 165),2px 2px 0 rgb(121, 100, 242),
+	3px 3px 0 rgb(167, 227, 222),
+	4px 4px 0 rgb(111, 182, 63),
+	5px 5px 0 rgb(161,117,50),
+	6px 6px 0 rgb(167, 227, 222),
+	7px 7px 0 rgb(26, 82, 165),
+	8px 8px 0 rgb(121, 100, 242)
 }
 
 .firstContent{
@@ -302,4 +309,26 @@ footer {
 }
 li {
 	line-height: 1.5em;
+}
+
+.logo:hover {
+	box-shadow: 0px 0px 0 rgb(28, 157, 208),
+	1px 1px 0 rgb(26, 82, 165),2px 2px 0 rgb(121, 100, 242),
+	3px 3px 0 rgb(167, 227, 222),
+	4px 4px 0 rgb(111, 182, 63),
+	5px 5px 0 rgb(161,117,50),
+	6px 6px 0 rgb(167, 227, 222),
+	7px 7px 0 rgb(26, 82, 165),
+	8px 8px 0 rgb(121, 100, 242),
+	9px 9px 0 rgb(167, 227, 222),
+	10px 10px 0 rgb(111, 182, 63);
+}
+
+/* features */
+.half{
+	display: flex;
+	justify-content: space-between;
+}
+.quarter{
+	padding: 10px 10px;
 }
